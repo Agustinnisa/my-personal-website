@@ -50,18 +50,19 @@ body {
 }
 
 .home-content {
-    max-width: 700px;
+    max-width: 600px;
     margin-left: auto;
 }
 
 .home-content h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
 }
 
 .home-content p {
     font-size: 16px;
     margin: 20px 0 40px;
+    text-align: justify;
 }
 
 .home-content .btn-box {
