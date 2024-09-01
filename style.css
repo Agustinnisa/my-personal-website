@@ -9,6 +9,7 @@
 
 body {
     background-color: #F6EACB;
+    color: #987070;
 }
 
 .header {
@@ -19,9 +20,12 @@ body {
     padding: 20px 10%;
     background: transparent;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.navbar  {
+    margin-right: auto;
 }
 
 .navbar a {
@@ -29,11 +33,61 @@ body {
     color: #987070;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-right: 35px;
     transition: .3s;
 }
 
 .navbar a:hover,
 .navbar a.nav-link {
     color: #E0A75E;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+    margin-left: auto;
+}
+
+.home-content h1 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #987070;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+    background: #BC9F8B;
+    border: 2px solid #BC9F8B;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #ededed;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
